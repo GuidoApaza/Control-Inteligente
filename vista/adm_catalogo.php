@@ -19,9 +19,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	          </div>
 	        </div>
 	      </div><!-- /.container-fluid -->
-	    </section>
-
-	    <!-- Main content 
+	    </section>	    
 	    <section>
 	    	<div class="container-fluid">
 	    		<div class="card-danger">
@@ -53,7 +51,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	    		</div>
 	    	</div> 
 	    </section>    	   
-		<section> -->
+		<section>
 	    <!--	<div class="container-fluid">
 	    		<div class="card-primary">
 	    			<div class="card-header">
