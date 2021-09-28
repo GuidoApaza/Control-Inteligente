@@ -91,6 +91,14 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 		      				<label for="dni">C.I</label>
 		      				<input id="dni" type="text" class="form-control" placeholder="Ingrese C.I" required>
 		      			</div>
+						  <div class="form-group">
+		      				<label for="dir">Direccion</label>
+		      				<input id="dir" type="text" class="form-control" placeholder="Ingrese su Dirreccion" required>
+		      			</div>
+						  <div class="form-group">
+		      				<label for="cel">Celular</label>
+		      				<input id="cel" type="text" class="form-control" placeholder="Ingrese Celular" required>
+		      			</div>
 		      			<div class="form-group">
 		      				<label for="pass">Contraseña</label>
 		      				<input id="pass" type="password" class="form-control" placeholder="Ingrese contraseña" required>
