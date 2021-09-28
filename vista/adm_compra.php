@@ -152,7 +152,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
                                         <th scope="col">Stock</th>
                                         <th scope="col">Precio</th>
                                         <th scope="col">sabor</th>
-                                        <th scope="col">mascota</th>
+                                        <th scope="col">producto</th>
                                         <th scope="col">empresa</th>
                                         <th scope="col">Presentacion</th>
                                         <th scope="col">Cantidad</th>
