@@ -115,10 +115,10 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	    				<div class="col-sm-12">
 	    					<div class="card card-dark card-outline">
 	    						<div class="card-body box-profile">
-	    					<!--		<div class="text-center">
+	    							<div class="text-center">
 	    								<img id="avatar2" src="../img/avatar.png" class="profile-user-img img-fluid img-circle">						
 	    							</div> -->
-	    					<!--		<div class="text-center mt-6">
+	    							<div class="text-center mt-6">
 	    								<button type='button' data-toggle="modal" data-target="#cambiophoto" class="btn btn-primary btn-sm">Cambiar Imagen</button>
 	    							</div> -->
 	    							<input type="hidden" id="id_usuario" value="<?php echo $_SESSION['usuario']?>">
