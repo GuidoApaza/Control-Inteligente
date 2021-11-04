@@ -28,7 +28,7 @@ if ($_SESSION['us_tipo']==3 || $_SESSION['us_tipo']==1){
 		      			<span id="cliente"></span>
 		      		</div>
 		      		<div class="form-group">
-		      			<label for="dni">C.I: </label>
+		      			<label for="dni">Carnet de identidad: </label>
 		      			<span id="dni"></span>
 		      		</div>
 		      		<div class="form-group">
