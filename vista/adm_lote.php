@@ -33,7 +33,11 @@ if ($_SESSION['us_tipo']==1){
 		      			<div class="form-group">
 		      				<label for="stock">Stock</label>
 		      				<input id="stock" type="text" class="form-control" placeholder="Ingrese Sotck" required>
-		      			</div>		      					
+		      			</div>		
+						  <div class="form-group">
+		      				<label for="venta">Venta</label>
+		      				<input id="venta" type="text" class="form-control" placeholder="Ingrese vneta" required>
+		      			</div>	      					
 		      			<input type="hidden" id="id_lote_prod"> 
 	      		</div>
 		      	<div class="card-footer">
