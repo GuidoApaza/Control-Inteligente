@@ -54,7 +54,17 @@ if ($_SESSION['us_tipo']==1){
 		      				</tr>
 		      			</thead>
 		      			<tbody class="table-warning" id="registros">
-		      				
+						  <div class="card-body">
+                    <div class="alert alert-success text-center" id="add" style="display: none;">
+                        <span><i class="fas fa-check m-1"></i>Se agrego correctamente</span>
+                    </div>
+                    <div class="alert alert-danger text-center" id="noadd" style="display: none;">
+                        <span><i class="fas fa-times m-1"></i>El C.I ya existe</span>
+                    </div>
+                    <div class="alert alert-success text-center" id="edit-client" style="display: none;">
+                        <span><i class="fas fa-check m-1"></i>Se edito correctamente</span>
+                     </div>
+                    <form id="form-crear-cliente">		
 		      			</tbody>
 		      		</table>
 		      		<div class="float-md-right input-group-append">
