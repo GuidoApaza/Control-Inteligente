@@ -99,6 +99,10 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 		      				<label for="cel">Celular</label>
 		      				<input id="cel" type="text" class="form-control" placeholder="Ingrese Celular" required>
 		      			</div>
+						  <div class="form-group">
+		      				<label for="tel">Telefono</label>
+		      				<input id="tel" type="text" class="form-control" placeholder="Ingrese Telefono" required>
+		      			</div>
 		      			<div class="form-group">
 		      				<label for="pass">Contraseña</label>
 		      				<input id="pass" type="password" class="form-control" placeholder="Ingrese contraseña" required>
