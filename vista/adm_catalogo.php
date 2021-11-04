@@ -52,7 +52,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	    	</div> 
 	    </section>    	   
 		<section>
-	    <!--	<div class="container-fluid">
+	    	<div class="container-fluid">
 	    		<div class="card-primary">
 	    			<div class="card-header">
 	    				<h3 class="card-title">Buscar producto</h3>
@@ -106,7 +106,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	    	</div>
 	    </section>    	   
 	  </div> -->
-	  <!-- /.content-wrapper -->
+	  
 
 	  
 <?php 
