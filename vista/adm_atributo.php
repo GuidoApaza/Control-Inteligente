@@ -29,12 +29,6 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	        <div class="alert alert-success text-center" id="edit" style="display: none;">
 	        	<span><i class="fas fa-check m-1"></i>El logo se Edito</span>
 	        </div>
-	        <div class="alert alert-danger text-center" id="noedit" style="display: none;">
-	        	<span><i class="fas fa-times m-1"></i>Formato no Soportado</span>
-	        </div>
-			<div class="alert alert-danger text-center" id="noedit" style="display: none;">
-	        	<span><i class="fas fa-times m-1"></i>Formato Soportado</span>
-	        </div>
 			<div class="alert alert-danger text-center" id="noedit" style="display: none;">
 	        	<span><i class="fas fa-times m-1"></i>Tamaño demasiado grande se recomienda 500px x 500px</span>
 	        </div>
