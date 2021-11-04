@@ -157,7 +157,53 @@ if ($_SESSION['us_tipo']==3 || $_SESSION['us_tipo']==1){
           </div>
 
 		</div>
-
+		</section>	
+	    <div class="container-fluid">
+		<div class="card card-primary">
+         <div class="card-header">
+          <h3>consultas generales</h3>
+          </div>
+		  <div class="card-body">
+		  <div class="row">
+		  <div class="col-md-12">
+		  <h2> ventas por mes gestion-2020</h2>
+		  <div class="chart-responsive">
+		  	<canvas id='Grafico1'style="min-height:250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>				 										
+	    					</div>
+	    					<div class="card-body p-0">
+	    						<div class="tab-content">
+	    							<div class="tab-pane active" id="laboratorio">
+	    									<div class="card-header">
+	    										<form id="form-fecha">		      			
+									      			<div class="row">
+									      				<div class="form-group col-5 pl-5">
+										      				<label for="fecha"class="center">Fecha Inicio</label>
+										      				<input id="fecha_inicio" type="date" class="form-control" placeholder="Ingrese fecha Inicio" required>
+										      			</div>
+										      			<div class="form-group col-4">
+										      				<label for="fecha">Fecha final</label>
+										      				<input id="fecha_final" type="date" class="form-control" placeholder="Ingrese fecha final" required>
+										      			</div>	  
+										      			 <button type="submit" class="btn bg-gradient-primary float-right m-2 pt-lg-0">Buscar</button> 
+										      			 <button type="button" class="imprimir_reporte btn bg-gradient-primary float-right m-2 pt-lg-0">IMPRIMIR</button> 
+										      			    		
+										      		</div>	      			      			
+									      		</form>										
+	    									</div>
+	    									<div class="card-body p-0 table-responsive">
+	    										<table id="tabla_venta" class="table table-borderless" style="width:100%">
+											        <thead>
+											            <tr>
+											                <th>N#</th>
+											                <th>Fecha</th>
+											                <th>Nombre cliente</th>
+											                <th>CI</th>
+											                <th>Total</th>
+											                <th>Vendedor</th>
+											            </tr>
+											        </thead>	
+		  </div>
+     	 </div>
 
 	  </div>
 	  <!-- /.content-wrapper -->
