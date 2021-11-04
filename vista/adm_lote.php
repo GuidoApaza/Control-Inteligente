@@ -62,43 +62,7 @@ if ($_SESSION['us_tipo']==1){
 	        </div>
 	      </div><!-- /.container-fluid -->
 	    </section>	
-	    <section>
-	    	<div class="container-fluid">
-	    		<div class="card-primary">
-	    			<div class="card-header">
-	    				<h3 class="card-title">Buscar lotes</h3>
-	    				<div class="input-group">
-	    					<input type="text" id="buscar-lote" class="form-control float-left" placeholder="Ingrese el nombre de producto">
-	    					<div class="input-group-append">
-	    						<button class="btn btn-default">
-	    							<i class="fas fa-search"></i>
-	    						</button>
-	    					</div>
-	    				</div>
-	    			</div>
-					<div class="card-body p-0 table-responsive">
-	    										<table class="table table-hover text-nowrap">
-	    											<thead class="table-primary">
-	    												<tr>	    													
-	    													<th>codigo</th>	  		
-	    													<th>Stock</th>
-															<th>Mascota</th>
-															<th>Empresa</th>
-															<th>Producto</th>
-															<th>material</th>
-															<th>Fecha Registro</th>
-															<th>Distribuidor</th>
-															<th>botones</th>											
-	    												</tr>
-	    											</thead>
-	    									<tbody  id="lotes" class="table-active">	    												
-	    							</tbody>
-	    					</table>
-	    				</div>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </section>    	   
+	    
 	  </div>
 	  <!-- /.content-wrapper -->
 
