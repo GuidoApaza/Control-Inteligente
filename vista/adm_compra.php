@@ -30,16 +30,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
                         <span><i class="fas fa-check m-1"></i>Se edito correctamente</span>
                      </div>
                     <form id="form-crear-cliente">
-                    <div class="input-group">
-                            <input id="buscar-cliente" type="text" class="form-control float-left" placeholder="Ingrese Nombre">
-                            <div class="input-group-append">
-                                <button class="btn btn-default"><i class="fas fa-search"></i></button>
-                            </div>
-                        </div> 
-                        <div class="form-group">
-                            <label for="nombre">Nombre</label>
-                            <input id="nombre-cliente" type="text" class="form-control" placeholder="" required>
-                        </div>
+                    
                         <div class="form-group">
                             <label for="apellido">Apellido</label>
                             <input id="apellido-cliente" type="text" class="form-control" placeholder="" required>
