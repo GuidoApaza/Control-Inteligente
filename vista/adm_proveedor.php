@@ -29,6 +29,14 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	        <div class="alert alert-success text-center" id="edit-prov" style="display: none;">
 	        	<span><i class="fas fa-check m-1"></i>El logo se Edito</span>
 	        </div>
+			<div class="form-group">
+		      				<label for="stock">Stock</label>
+		      				<input id="stock" type="text" class="form-control" placeholder="Ingrese Sotck" >
+		      			</div>
+		      			<div class="form-group">
+		      				<label for="vencimiento">Registro Producto</label>
+		      				<input id="vencimiento" type="date" class="form-control" placeholder="Ingrese vencimiento">
+		      			</div>		      			
 	        <div class="alert alert-danger text-center" id="noedit-prov" style="display: none;">
 	        	<span><i class="fas fa-times m-1"></i>Formato no Soportado</span>
 	        </div>
