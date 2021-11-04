@@ -203,17 +203,7 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
 	    										<input type="number" id="telefono" class="form-control">
 	    									</div>	   					
 	    								</div>
-	    								<div class="form-group row">
-	    									<label for="residencia" class="col-sm-2 col-form-label">Residencia</label>
-	    									<div class="col-sm-10">
-	    										<input type="text" id="residencia" class="form-control">
-	    									</div>	   					
-	    								</div>
-	    								<div class="form-group row">
-	    									<label for="correo" class="col-sm-2 col-form-label">Correo</label>
-	    									<div class="col-sm-10">
-	    										<input type="text" id="correo" class="form-control">
-	    									</div>	   					
+	    									   					
 	    								</div>
 	    								<div class="form-group row">
 	    									<label for="sexo" class="col-sm-2 col-form-label">Sexo</label>
