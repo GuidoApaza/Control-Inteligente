@@ -31,20 +31,6 @@ if ($_SESSION['us_tipo']==1||$_SESSION['us_tipo']==3){
                      </div>
                     <form id="form-crear-cliente">
                     
-                        <div class="form-group">
-                            <label for="apellido">Apellido</label>
-                            <input id="apellido-cliente" type="text" class="form-control" placeholder="" required>
-                        </div>                        
-                        <div class="form-group">
-                            <label for="dni">C.I</label>
-                            <input id="dni-cliente" type="text" class="form-control" placeholder="" required>
-                        </div>                                        
-                        <input type="hidden" id="id_editar_cliente">
-                        <div class="card-footer">
-                            <button type="submit" class="btn bg-gradient-primary float-right m-1">Guardar</button>
-                            
-                            <button type="button" data-dismiss="modal" class="btn bg-gradient-primary    float-right m-1">Cerrar</button>
-                        </div>
                     </form>
                     
                      <div class="card-body p-0 table-responsive mt-2">
